@@ -13,17 +13,20 @@ function App() {
 
   const hobbies = {
     title: "Hobbies",
-    list: ["Música", "Ir a la playa", "Jugar computadora", "Correr"]
+    list: ["Música", "Ir a la playa", "Jugar computadora", "Correr"],
+    number: 2
   }
 
   const food = {
     title: "Mi comida favorita",
-    list: ["Pasticho", "Pizza", "Higado encebollado", "Mondongo"]
+    list: ["Pasticho", "Pizza", "Higado encebollado", "Mondongo"],
+    number: 3
   }
 
   const stackTech = {
     title: "Mi stack tech",
-    list: ["HTML", "CSS", "SAAS", "SAAS"]
+    list: ["HTML", "CSS", "SAAS", "SAAS"],
+    number: 4
   }
 
   return (

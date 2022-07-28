@@ -5,7 +5,7 @@ const Card = ({ objInfo }) => {
     console.log(objInfo)
 
     return (
-        <div className="contenedor2">
+        <div className={`contenedor${objInfo.number}`}>
             <h2><strong>{objInfo.title}</strong></h2>
             <ul className='list'>
                 <li className='list__items'>{objInfo.list[0]}</li>
